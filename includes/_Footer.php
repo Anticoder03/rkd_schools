@@ -25,8 +25,8 @@
                     <li><a href="index.php" class="hover:text-yellow-400">Home</a></li>
                     <li><a href="about.php" class="hover:text-yellow-400">About Us</a></li>
                     <!-- <li><a href="classes.php" class="hover:text-yellow-400">Classes</a></li> -->
-                    <li><a href="teachers.php" class="hover:text-yellow-400">Teachers</a></li>
-                    <li><a href="gallery.php" class="hover:text-yellow-400">Gallery</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Teachers</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Gallery</a></li>
                     <li><a href="contact.php" class="hover:text-yellow-400">Contact</a></li>
                 </ul>
             </div>

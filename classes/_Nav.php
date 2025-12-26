@@ -13,7 +13,7 @@
             <!-- Navigation Links -->
             <ul class="hidden md:flex items-center gap-8 font-medium">
                 <li class="hover:text-yellow-400 cursor-pointer">
-                    About Us 
+                                    <a href="../about.php"> About Us </a>
                 </li>
                 <!-- <li class="hover:text-yellow-400 cursor-pointer">
                     Admission
@@ -60,13 +60,13 @@
 </li>
 
                 <li class="hover:text-yellow-400 cursor-pointer">
-                    Staff Profile
+                    <a href="#">Staff Profile</a>
                 </li>
                 <li class="hover:text-yellow-400 cursor-pointer">
                     Gallery
                 </li>
                 <li class="hover:text-yellow-400 cursor-pointer">
-                    Contact Us
+                    <a href="../contact.php">Contact Us</a>
                 </li>
             </ul>
 
