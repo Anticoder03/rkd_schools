@@ -13,16 +13,54 @@
             <!-- Navigation Links -->
             <ul class="hidden md:flex items-center gap-8 font-medium">
                 <li class="hover:text-yellow-400 cursor-pointer">
-                    About Us <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
+                    About Us 
                 </li>
-                <li class="hover:text-yellow-400 cursor-pointer">
+                <!-- <li class="hover:text-yellow-400 cursor-pointer">
                     Admission
-                </li>
+                </li> -->
+
+              <li class="relative group cursor-pointer" style="z-index: 1000;">
+    <span class="hover:text-yellow-400 flex items-center gap-1">
+        Classes <i class="fa-solid fa-chevron-down text-xs"></i>
+    </span>
+
+    <!-- Dropdown -->
+    <ul class="absolute left-0 top-full mt-3 w-48 bg-white text-gray-800 rounded-md shadow-lg
+               opacity-0 invisible group-hover:opacity-100 group-hover:visible
+               transition-all duration-200">
+
+        <li>
+            <a href="./classes/11-science.php" 
+               class="block px-4 py-2 hover:bg-gray-100">
+                11th Science
+            </a>
+        </li>
+
+        <li>
+            <a href="./classes/11-comm.php" 
+               class="block px-4 py-2 hover:bg-gray-100">
+                11th Commerce
+            </a>
+        </li>
+
+        <li>
+            <a href="./classes/12-science.php" 
+               class="block px-4 py-2 hover:bg-gray-100">
+                12th Science
+            </a>
+        </li>
+
+        <li>
+            <a href="./classes/12-comm.php" 
+               class="block px-4 py-2 hover:bg-gray-100">
+                12th Commerce
+            </a>
+        </li>
+    </ul>
+</li>
+
                 <li class="hover:text-yellow-400 cursor-pointer">
-                    Courses <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
-                </li>
-                <li class="hover:text-yellow-400 cursor-pointer">
-                    Facilities
+                    Staff Profile
                 </li>
                 <li class="hover:text-yellow-400 cursor-pointer">
                     Gallery
