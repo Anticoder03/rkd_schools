@@ -1,7 +1,10 @@
 <?php
 include_once "auth.php";
 ?>
-
+<?php
+include_once "auth.php";
+include_once "_Navbar.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,10 +13,10 @@ include_once "auth.php";
 </head>
 <body class="bg-gray-100 min-h-screen">
 
-    <nav class="bg-[#062645] text-white px-6 py-4 flex justify-between">
+    <!-- <nav class="bg-[#062645] text-white px-6 py-4 flex justify-between">
         <h1 class="font-semibold text-lg">Admin Panel</h1>
         <a href="logout.php" class="text-sm hover:underline">Logout</a>
-    </nav>
+    </nav> -->
 
     <main class="p-6">
         <div class="bg-white p-6 rounded-xl shadow">
