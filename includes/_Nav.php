@@ -60,10 +60,10 @@
 </li>
 
                 <li class="hover:text-yellow-400 cursor-pointer">
-                    <a href="#">Staff Profile</a>
+                    <a href="./staff_profile.php">Staff Profile</a>
                 </li>
                 <li class="hover:text-yellow-400 cursor-pointer">
-                    Gallery
+                    <a href="./gallary.php">Gallery</a>
                 </li>
                 <li class="hover:text-yellow-400 cursor-pointer">
                     <a href="./contact.php">Contact Us</a>
